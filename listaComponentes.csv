@@ -1,0 +1,11 @@
+﻿Nombre,Cantidad,Componente
+"U1",1," Arduino Uno R3"
+"U2",1," LCD 16 x 2"
+"R7",1,"220 Ω Resistencia"
+"U3",1," Sensor de temperatura [TMP36]"
+"SERVO1",1,"Posicional Microservomotor"
+"D1",1,"Verde LED"
+"D2",1,"Rojo LED"
+"U5",1," Sensor IR"
+"R1",1,"250 Ω Resistencia"
+"R2",1,"100 Ω Resistencia"
