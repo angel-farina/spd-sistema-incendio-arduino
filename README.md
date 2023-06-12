@@ -12,19 +12,6 @@
 ## Vista Esquemática
 ![Tinkercad](./img/VistaEsquematica.JPG)
 
-## Lista Componentes
-Nombre,Cantidad,Componente
-"U1",1," Arduino Uno R3"
-"U2",1," LCD 16 x 2"
-"R7",1,"220 Ω Resistencia"
-"U3",1," Sensor de temperatura [TMP36]"
-"SERVO1",1,"Posicional Microservomotor"
-"D1",1,"Verde LED"
-"D2",1,"Rojo LED"
-"U5",1," Sensor IR"
-"R1",1,"250 Ω Resistencia"
-"R2",1,"100 Ω Resistencia"
-
 
 ## Descripción
 Es un sistema de alarma para incendios, el sistema muestra por defecto la temperatura ambiente. Con el control IR se puede establecer la estacion en la que nos encontramos, por lo cual esta definida una temperatura critica para cada estacion. Si la temperatura es estable, se muestra por pantalla la estacion y la temperatura actual. Si alcanza el estado critico, se activa la alarma apagando el led verde y encendiendo el rojo, tambien se activa el servo para que deje pasar el agua, mostrando todo lo sucedido por la pantalla LCD. Si la temperatura se pone estable nuevamente, se muestra el mensaje por pantalla y vuelvo todo a la normalidad.
